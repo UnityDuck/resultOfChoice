@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Результаты отбора</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <div class="container py-5">
+        <div class="card shadow">
+            <div class="card-body">
+                <h1 class="card-title text-primary">Поздравляем, {{ nickname }}!</h1>
+                <h3 class="text-success">Вы успешно прошли этап №{{ level }}.</h3>
+                <h4 class="mt-3">Ваш текущий рейтинг:
+                    <span class="badge bg-info text-dark">{{ rating }}</span>
+                </h4>
+                <p class="mt-4">Продолжайте в том же духе — вперед к звёздам!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
